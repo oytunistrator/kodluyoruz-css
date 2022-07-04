@@ -1,0 +1,107 @@
+body {
+    font-family: Roboto;
+    text-align: center;
+}
+
+.bg-image {
+    background-color: #e5e5f7;
+    opacity: 0.1;
+    background-image: linear-gradient(#444cf7 1.3px, transparent 1.3px), linear-gradient(to right, #444cf7 1.3px, #e5e5f7 1.3px);
+    background-size: 26px 26px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+.content {
+    background: #e5e5f7;
+    padding: 5px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(126, 121, 196);
+}
+
+img.img-resized {
+    max-width: 400px;
+}
+
+nav.menu {
+    background: rgb(126, 121, 196);
+    background: linear-gradient(0deg, rgba(126, 121, 196, 1) 0%, rgba(139, 139, 193, 1) 46%, rgba(146, 96, 245, 1) 100%);
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav.menu a {
+    text-decoration: none;
+    color: #e5e5f7;
+    padding: 10px;
+}
+
+nav.menu a:hover {
+    text-decoration: none;
+    color: rgb(126, 121, 196);
+    background: rgb(244, 244, 245);
+    background: linear-gradient(180deg, rgba(244, 244, 245, 1) 0%, rgba(247, 247, 247, 1) 46%, rgba(239, 230, 255, 1) 100%);
+}
+
+nav.menu a.active {
+    text-decoration: none;
+    color: rgb(126, 121, 196);
+    background: rgb(244, 244, 245);
+    background: linear-gradient(180deg, rgba(244, 244, 245, 1) 0%, rgba(247, 247, 247, 1) 46%, rgba(239, 230, 255, 1) 100%);
+}
+
+.urunler {}
+
+.urunler .urun {
+    max-width: 200px;
+    clear: both;
+    display: inline-block;
+}
+
+.urunler .urun .urun-resim {
+    max-width: 200px;
+    float: left;
+}
+
+.urunler .urun .urun-resim img {
+    max-width: 200px;
+}
+
+.urunler .urun .urun-content {
+    float: right;
+}
+
+.urunler .urun .urun-content .urun-fiyat {
+    font-size: 20x;
+    font-weight: bold;
+    color: rgb(22, 99, 54)
+}
+
+.urunler .urun .urun-content .urun-baslik {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(95, 91, 146)
+}
+
+.urunler .urun .urun-content .urun-aciklama {
+    font-size: 12px;
+}
